@@ -1,0 +1,36 @@
+#Question:
+
+Doug was using Google and was amazed to see the autocomplete feature. How autocomplete works. it search the database for all the possible words that can be formed using the characters that are provided by user(as input)
+for ex: if a user type 'cis' in the search box then suggestions would be
+cisco
+cisf
+cissp
+cism
+cisa
+
+He thought about applying the same in his search engine. in his prototype., he took a string as domain, which contained all the words he could search.
+
+As his designer, you have to tell him how many unique autocomplete options will be provided to him if something is entered in the input field.
+
+**********************************************************************************************************
+
+Input specification:
+input1: The domain string
+input2: The input word or prefix of word
+
+Output specification:
+Return the string array containing all the unique autocomplete options.
+
+***********************************************************************************************************
+
+Example1:
+input1: This is the introductory information of the new word search engine PollyHop.
+input2: in
+
+Output: {introductory,information}
+
+Explanation: In the domain string, words starting from 'in' are {information, introductory}
+
+***********************************************************************************************************
+
+Example2: 
